@@ -8,7 +8,7 @@ The Image to ASCII Converter is a Java-based project that allows you to convert 
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Examples](#examples)
+- [Example](#example)
 
 ## Installation
 
