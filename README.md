@@ -8,10 +8,7 @@ The Image to ASCII Converter is a Java-based project that allows you to convert 
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Configuration](#configuration)
 - [Examples](#examples)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
@@ -21,4 +18,19 @@ The Image to ASCII Converter is a Java-based project that allows you to convert 
 ## Usage
 
 1. Running the project will provide a CLI user interface.
-2. 
+2. These are the available commands:
+   - render - renders the image.
+   - chars - shows the set of chars it will use.
+   - add #char# - add new char to the set.  could use "add all" to add all chars.
+   - remove #char#
+   - res up/down - to change the resolution of the output.
+   - console - set the output to be in the console (by default, it will export to html file)
+3. After rendering, you could see the result in the .out.html file or in the console.
+
+## Example
+Before: 
+![Before](https://github.com/eyalmutzary/Image-To-Ascii/blob/master/landscape.jpeg)
+
+After: 
+![Before](https://github.com/eyalmutzary/Image-To-Ascii/blob/master/Screenshot.png)
+
